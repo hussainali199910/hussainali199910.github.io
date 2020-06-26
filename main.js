@@ -83,7 +83,7 @@ var layer_list = [
    {
       'image': mask,
       'src': './images/name.png',
-      'z_index': 1,
+      'z_index': 1.2,
       'position': { x: 0, y: 0 },
       'blend': null,
       'opacity': 1
