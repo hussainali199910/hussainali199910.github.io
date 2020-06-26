@@ -40,17 +40,25 @@ var layer_list = [
       'opacity': 1
    },
    {
-      'image': clouds,
-      'src': './images/logshad.png',
-      'z_index': -1.5,
+      'image': humans,
+      'src': './images/shad.png',
+      'z_index': -0.8,
       'position': { x: 0, y: 0 },
       'blend': null,
-      'opacity': 0.8
+      'opacity': 0.5
+   },
+   {
+      'image': clouds,
+      'src': './images/logshad.png',
+      'z_index': -0.5,
+      'position': { x: 0, y: 0 },
+      'blend': null,
+      'opacity': 1
 	},
    {
       'image': floaties_1,
       'src': './images/log.png',
-      'z_index': -0.5,
+      'z_index': 0.2,
       'position': { x: 0, y: 0 },
       'blend': null,
       'opacity': 1
@@ -67,7 +75,7 @@ var layer_list = [
    {
       'image': shadows,
       'src': './images/nameshad.png',
-      'z_index': 0.5,
+      'z_index': 0.8,
       'position': { x: 0, y: 0 },
       'blend': null,
       'opacity': 1
@@ -75,7 +83,7 @@ var layer_list = [
    {
       'image': mask,
       'src': './images/name.png',
-      'z_index': 1.5,
+      'z_index': 1,
       'position': { x: 0, y: 0 },
       'blend': null,
       'opacity': 1
